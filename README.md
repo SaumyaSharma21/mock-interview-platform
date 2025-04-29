@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 PrepAI: Smart Feedback on Mock Interviews
 
-## Getting Started
+Welcome to **PrepAI** — an intelligent mock interview feedback system powered by **Google Gemini AI**! 🚀
 
-First, run the development server:
+> Get AI-driven, structured feedback on your interviews instantly — including scores, strengths, improvement areas, and a final summary — all with a polished modern UI.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔗 Live Website
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🌐 **Check it out here**: https://mock-interview-platform-chi-ashy.vercel.app/
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Deployed seamlessly with **Vercel** for fast performance and zero-config CI/CD.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🤖 **AI-Powered Feedback** via Google Gemini (ai-sdk/google)
+- 🧩 **Role-based Evaluation**: Communication, Problem-Solving, Tech Skills & more
+- 📈 **Score Reports**: Visual scores and written feedback
+- 📅 **Timestamps** using `dayjs`
+- 🎙️ **Voice Assistant UI** via `vapi-ai/web`
+- 🧠 **Schema-Validated Outputs** via `ai-sdk`
+- 🧑‍🎨 **Modern UI Components** via ShadCN + Tailwind
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Technology              | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| ⚡️ **Next.js 15 (App Router)** | Full-stack React framework with Server Actions                         |
+| 🎨 **Tailwind CSS + ShadCN**   | Beautiful, accessible UI with reusable components                       |
+| 🔥 **Firebase (v9 modular)**   | Auth and Firestore DB for interview/feedback data                       |
+| 🤖 **ai-sdk/google**           | Gemini-powered prompt schema + inference engine                         |
+| 📅 **Day.js**                  | Lightweight date formatting and time conversion                         |
+| 🎙️ **vapi-ai/web**             | Voice assistant frontend SDK                                            |
+| 🤖 **Gemini AI SDK**           | Google’s LLM used to evaluate the interview transcript                  |
+| 🧠 **AI SDK (ai-js)**          | Schema-based output generation with prompt engineering                  |
+| ☁️ **Vercel**                  | Blazing fast deployment and serverless hosting                          |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🎯 Use Case
+
+As a student or job-seeker, practicing mock interviews is essential — but getting detailed feedback is hard.
+
+**PrepAI** solves that by generating personalized feedback from AI that evaluates:
+- Your technical performance
+- Communication & clarity
+- Problem-solving approach
+- Strengths and areas to improve
+
+**Perfect for aspiring developers preparing for technical, behavioral, or mixed mock interviews — whether for full-time SDE roles, internships, or coding bootcamps.**
+
+---
+
+
